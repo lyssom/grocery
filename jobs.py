@@ -93,7 +93,7 @@ def click_lighting(brower, goods_msg):
 
 
 def send_error_msg(msgs, msg_type='lighting'):
-    corporation = '机汤'
+    corporation = ''
     now_time = str(datetime.now())[:16]
     content = ''
     if msg_type == 'lighting':
